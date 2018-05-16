@@ -6,7 +6,8 @@
   "license": "UNLICENSED",
   "private": true,
   "scripts": {
-    "build": "babel . --out-dir compiled --presets=env,react --ignore=node_modules,compiled --source-maps inline --watch",
+    "build": "babel . --out-dir compiled --presets=env,react --ignore=node_modules,compiled --source-maps inline",
+    "watch": "babel . --out-dir compiled --presets=env,react --ignore=node_modules,compiled --source-maps inline --watch",
     "test": "live-server --open=./SpecRunner.html --port=8081"
   },
   "dependencies": {
