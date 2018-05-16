@@ -5,7 +5,7 @@ boilerplate for react so you can start a new react project without worrying abou
 Makesure to have npm, live-server, and babel-cli installed first.
 
 ``
-npm run build   //install all dependencies
+npm install   //install all dependencies
 ``
 
 
