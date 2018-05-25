@@ -10,10 +10,10 @@ npm install   //install all dependencies
 
 
 ``
-npm run build   //compile once
+npm start   //start node server
 ``
 
 
 ``
-npm run watch   //compile as you make changes
+npm run react   //compile as you make changes to react
 ``
