@@ -4,21 +4,28 @@ This boilerplate includes minimum but essential configuration to start a react a
 ## Getting Started
 If you want to use this without node and express, simply delete everything under server folder and all its dependencies.
 
-``
-npm install   //install all dependencies
-``
+to install all dependencies
 
 ``
-npm run react-dev  //compile as you make changes to react
+npm install
 ``
 
+to compile as you make changes to react
+
 ``
-npm run start //run node server
+npm run react-dev  
+``
+
+to start node server
+
+``
+npm run start 
 ``
 
 You may also run webpack in production mode to uglify/minify your dist files.
+
 ``
-npm run react-build //compile files in minified version using production mode   
+npm run react-build  //compile files in minified version using production mode   
 ``
 
 ## Contains
