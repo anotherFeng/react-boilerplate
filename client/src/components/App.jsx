@@ -1,20 +1,10 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import $ from 'jquery';
-
-class App extends React.Component{
-    constructor(props){
-        super(props);
-        this.state = {
-
-        }
-    }
-
-    render(){
-        return(
-            <div>Hello React</div>
-        )
-    }
-}
-
+import React, {Component} from "react";
+import ReactDOM from "react-dom";
+const App = () => {
+  return (
+    <div>
+      <p>React here!</p>
+    </div>
+  );
+};
 export default App;
