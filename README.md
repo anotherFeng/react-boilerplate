@@ -1,19 +1,32 @@
 # Boiler Plate
-boilerplate for react so you can start a new react project without worrying about most of the setups.
+This boilerplate includes minimum but essential configuration to start a react application with node/express.
 
 ## Getting Started
-Makesure to have npm, live-server, and babel-cli installed first.
+If you want to use this without node and express, simply delete everything under server folder and all its dependencies.
 
 ``
 npm install   //install all dependencies
 ``
 
+``
+npm run react-dev  //compile as you make changes to react
+``
 
 ``
-npm start   //start node server
+npm run start //run node server
 ``
 
+You may also run webpack in production mode to uglify/minify your dist files.
+``
+npm run react-build //compile files in minified version using production mode   
+``
 
-``
-npm run react   //compile as you make changes to react
-``
+## Contains
+
+*Reactjs
+*Webpack4
+*Babel ECMA6
+*Nodejs
+*Express
+*Axios
+*Lodash
