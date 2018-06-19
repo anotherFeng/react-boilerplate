@@ -23,10 +23,10 @@ npm run react-build //compile files in minified version using production mode
 
 ## Contains
 
-*Reactjs
-*Webpack4
-*Babel ECMA6
-*Nodejs
-*Express
-*Axios
-*Lodash
+* Reactjs
+* Webpack4
+* Babel ECMA6
+* Nodejs
+* Express
+* Axios
+* Lodash
