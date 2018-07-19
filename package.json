@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon server/index.js",
-    "react-dev": "webpack-dev-server --mode development ./client/src/index.js --output ./client/dist/bundle.js",
-    "react-build": "webpack --mode production ./client/src/index.js --output ./client/dist/bundle.js",
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js",
+    "react-dev": "webpack-dev-server --mode development",
+    "react-build": "webpack --mode production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
